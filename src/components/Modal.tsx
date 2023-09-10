@@ -25,7 +25,7 @@ const Modal: React.FC = () => {
 
   return (
     <Transition show={isOpen} as={Fragment}>
-      <Dialog className="relative top-[-300px] z-10" as="form" onSubmit={handleAddTaskSubmit} onClose={closeModal}>
+      <Dialog className="relative top-[-450px] z-10" as="form" onSubmit={handleAddTaskSubmit} onClose={closeModal}>
         <Transition.Child
           as={Fragment}
           enter="ease-out duration-300"

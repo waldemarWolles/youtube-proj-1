@@ -1,7 +1,7 @@
 export interface Board {
   columns: Map<TypedColumn, Column>
 }
-
+/// commen
 export type TypedColumn = 'todo' | 'inprogress' | 'done'
 
 export interface Column {
